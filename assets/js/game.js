@@ -1,0 +1,1 @@
+window.alert("This is an altert! JavaScript is running!");
