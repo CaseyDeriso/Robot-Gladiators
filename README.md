@@ -4,4 +4,6 @@
 
 ## It runs in the console, so be sure to hit F12 before clicking the link below:
 
-### [https://caseyderiso.github.io/Robot-Gladiators/](Link to deployed project)
+### [Link to deployed project](https://caseyderiso.github.io/Robot-Gladiators/)
+
+#### May the best robot win!
