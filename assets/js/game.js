@@ -24,8 +24,9 @@ var playerInfo = {
     },
     refillHealth: function() {
         if (this.money >= 7) {
-            window.alert("refilling player's health by 20 for 7 dollars.");
-            this.health += randomNumber(20, 27);
+            let healthRng = randomNumber(20, 27)
+            window.alert(`refilling player's health by ${healthRng} for 7 dollars.`);
+            this.health += healthRng;
             this.money -= 7;
         } else {
             window.alert("You don't have enough money!");
@@ -33,8 +34,9 @@ var playerInfo = {
     },
     upgradeAttack: function() {
         if (this.money >=7) {
-            window.alert("Upgrading player's attack by 6 for 7 dollars.")
-            this.attack += randomNumber(6, 9);
+            let attackRng = randomNumber(6, 9);
+            window.alert(`Upgrading player's attack by ${attackRng} for 7 dollars.`)
+            this.attack += attackRng;
             this.money -= 7;
         } else {
             window.alert("You don't have enough money!")
